@@ -4,7 +4,7 @@ export default{
     name:'user',
     title:'User',
     type: 'document',
-    feilds:[
+    fields:[
         //colmns where data will be added
         {
             name:'userName',

@@ -4,8 +4,9 @@ export default{
     name:'comment',
     title:'Comment',
     type: 'document',
-    feilds:[
+    fields:[
         //colmns where data will be added
+        //connected to other tabels
         {
             name:'postedBy',
             title: 'Posted By',

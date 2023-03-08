@@ -5,6 +5,6 @@ export default{
     name:'postedBy',
     title:'Posted by',
     type: 'reference', // connect two different documuments
-    to: [{type:'user'}] //one to many  user has many posts 
+    to: [{type:'user'}] //one to one  whre post was made by aa spcefic user 
 
 }
