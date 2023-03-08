@@ -1,3 +1,19 @@
+
+npx create-next-app ./ --ts   to install next.js with typescript
+
+setp up sanity back end
+
+npm install -g @sanity/cli
+npm create sanity@latest   say yes for most
+
+all thsese work in the sanity dircetory rushstream
+
+sanity docs - to open the documentation in a browser
+sanity manage - to open the project settings in a browser
+sanity help - to explore the CLI manual
+npm run dev - to run Sanity Studio
+sanity start
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
