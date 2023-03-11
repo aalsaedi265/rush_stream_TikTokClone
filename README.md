@@ -10,7 +10,8 @@ built using Next with TypeScript & SANITY instead of MongoDb/SQL, Express, & Nod
 npx create-next-app ./ --ts   to install next.js with typescript
 be sure dependencies are the same to when creating can use latest or legacy
 
-css will use TAILWIND
+css will use TAILWIND and extrsion Tailwind CSS IntelliSense
+install it in the main direcatory be suer to have tailwind vs code extension or it will get hard really quick, you need the assitant
 
 
 authentication with google

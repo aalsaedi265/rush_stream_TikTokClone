@@ -5,10 +5,8 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
-  //colors and images
   theme: {
     extend: {
-      //makes it more dynamc like native application
       width: {
         1600: '1600px',
         400: '400px',
@@ -27,7 +25,6 @@ module.exports = {
       top: {
         ' 50%': '50%',
       },
-      //this is just stringht up styling have it bro
       backgroundColor: {
         primary: '#F1F1F2',
         blur: '#030303',
