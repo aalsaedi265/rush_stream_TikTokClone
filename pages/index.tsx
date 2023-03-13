@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import styles from '../styles/Home.module.css'
 import axios from 'axios'
 import { Video } from '../types'
+import NoResults from '../components/NoResults'
+import VideoCard from '../components/VideoCard'
 
 interface IProps{
   videos: Video[]
@@ -14,11 +16,16 @@ const Home = ({videos}: IProps) =>{
   console.log(videos)
   return (
 
-    <>
-    <h1 className="text-3xl font-bold underline">
-      ZZZZAAAWWORRRLLLDDOOOO!
-    </h1>
-    </>
+    <div className='flex flex-col gap-10 videos h-full'>
+      RETURN TO ZERO
+      {videos.length ?(
+        videos.map((video: Video) =>(
+          <VideoCard post={video} key={video._id}/>
+        ))
+      ) : (
+        <NoResults text={'No Videos'} />
+      )}   
+    </div>
   )
 }
 
