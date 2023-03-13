@@ -1,9 +1,11 @@
 import type { NextPage } from 'next'
 import styles from '../styles/Home.module.css'
+import axios from 'axios'
+
 
 // const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+function Home() {
 
   return (
     <>
@@ -13,3 +15,13 @@ export default function Home() {
     </>
   )
 }
+
+export const getServerSideProps = async ()=>{
+
+  const res = await axios.get(`http://localhost:3000/api/post`);
+
+  console.log(res.data.name)
+  return { }
+}
+
+export default Home

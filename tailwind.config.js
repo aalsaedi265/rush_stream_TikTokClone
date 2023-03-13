@@ -1,5 +1,3 @@
-
-// can work with files and compoentwes of thee ending
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
